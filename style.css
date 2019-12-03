@@ -1,0 +1,355 @@
+html{
+    display:flex;
+}
+body{
+    width: 100%;
+    margin: 0;
+    
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/login_bg.png);
+    background-repeat: round;
+
+}
+.logo{
+    margin: 2em;
+    margin-left: 4em;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 2em;
+    margin-left: 39vw;
+    margin-top: 5vw;
+    width:20%;
+    height:35%;
+    background-color: rgba(212, 212, 212, 0.8);
+    box-shadow:0 0 50px rgba(0,0,0,0.5), 0 1px rgba(212,152,125,0.2) inset,0 5px 15px rgba(0,0,0,0.5); 
+}
+.code{
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    text-align: center;
+    border: none;
+    margin: 2em;
+    margin-left: 15%;
+    margin-top: 25%;
+    border-radius: 1em;
+    width: 70%;
+    height: 15%;
+}
+.log{
+    
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color:rgba(29, 181, 191, 1);
+    text-align: center;
+    border: none;
+    padding-top: 5%;
+    margin-bottom: 1em;
+    margin-left: 15%;
+    border-radius: 1em;
+    width: 70%;
+    height: 15%;
+    box-shadow:0 5px 15px rgba(0,0,0,0.5); 
+    
+  
+}
+.bg2{
+    width: 100%; 
+    background-color: rgba(244, 250, 252, 1);
+    display: flex;
+    flex-direction: row;
+ 
+
+}
+
+
+.menu{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 1vw;
+    width:12%;
+
+    background-color:rgba(29, 181, 191, 1);
+    box-shadow: 0 0px 5px rgba(0,0,0,0.5); 
+}
+
+.logo2{
+    margin-top: 4vh;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+    width: 80%;
+    height: 40%;
+
+}
+
+.feature{
+    width: 2vw;
+    height: 3.5vh;
+    margin-right: 1vh;
+    margin-left: 4vh;
+    
+}
+
+
+.features{
+    margin-top: 6vw;
+    width: 100%;
+    background-color: rgba(244, 250, 252, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    border-radius: 2vw;
+    font-size: 0.8vw;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+   
+}
+.features2{
+    margin-top: 2vw;
+    width: 100%;
+    background-color: rgba(244, 250, 252, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    border-radius: 2vw;
+    font-size: 0.8vw;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+   
+}
+.asistencia{
+    color: rgba(29, 181, 191, 1) ;
+    font-family: 'Montserrat', sans-serif;
+}
+.page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.usuario{
+    display: flex;
+    width: 100%;
+    height:5vw;
+    background-color: white;
+    margin-bottom: 3vw;
+    box-shadow:0 0 10px rgba(29, 181, 191, 1), 0 1px rgba(212,152,125,0.2) inset,0 5px 15px rgba(0,0,0,0.5); 
+}
+.perfil{
+    width: 45%;
+    margin-left: 62vw;
+    height: 100%;
+}
+.banner{
+    width: 100%;
+    height: 25%;
+}
+
+.bannerimg{
+    border-radius: 2vw;
+    margin-left: 20vw;
+    border-color: rgba(29, 181, 191, 1); 
+    border-width: 10px;
+    width:50vw;
+}
+.list{
+    width:100%;
+    margin-top:3vw;
+    margin-bottom:2vw;
+
+}
+
+.lista{
+    display:flex;
+    flex-direction: column;
+    border-radius: 2vw;
+    border-width: 0.2em;
+    border-color: rgb(0, 0, 0);
+    width:80%;
+    margin-left:10vw;
+    background-color: white;
+}
+.hoy{
+    margin: 0;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+}
+.day{
+    
+    margin:2vw;
+    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
+    color: darkgray;
+}
+.parte{
+    
+    margin:2.5vw;
+    margin-top:0.2vw;
+    margin-bottom:0.2vw;
+    font-size: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+}
+.users{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.usuarios{
+    display: flex;
+    flex-direction: row;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    width:17%;
+    margin-right:0.8vw;
+}
+.photo{
+    margin-top:1vw;
+    margin-left:1vw;
+    width:3vw;
+    height:3vw;
+}
+.codigo{
+    margin:0;
+    margin-top:2vw;
+    margin-left: 0.5vw;
+}
+h4{
+    font-size: 0.8vw;
+    margin-right:3vw;
+    margin-left: 1vw;
+    margin-top:2vw;
+    margin-bottom:0vw;
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+}
+.salon{
+    margin-right:5vw;
+}
+.lugar{
+    margin-right:4vw;
+    margin-left: 1vw;
+    margin-top:2vw;
+    margin-bottom:0vw;
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+}
+.fecha{
+    margin-right:4.2vw;
+}
+.hora{
+   
+        margin-right:4.5vw;
+    
+}
+.chat{
+    margin:1vw;
+    margin-right: 3vw;
+    margin-left:0.5vw;
+    width:3vw;
+    height:3vw;
+}
+.confirm{
+    font-size: 1vw;
+    margin-left: 1.8vw;
+    margin-right: 1vw;
+    color: rgba(29, 181, 191, 1); ;
+}
+
+
+
+.npeople{
+    margin-left:4vw;
+}
+.chat2{
+    margin:1vw;
+    margin-right: 1vw;
+    margin-left:0.5vw;
+    width:3vw;
+    height:3vw;
+}
+.asistentes{
+    margin-left:9vw;
+}
+.parte2{
+    
+    margin:2.5vw;
+    margin-left:10vw;
+    margin-top:0.2vw;
+    margin-bottom:0.2vw;
+    font-size: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+}
+
+.yn{
+    margin:1vw;
+    margin-right: 0.5vw;
+    margin-left:0.5vw;
+    margin-top: 1.5vw;
+    width:2vw;
+    height:2vw;
+}
+.chatapp{
+    width:100%;
+    display: flex;
+
+}
+.chatting{
+    width:90%;
+    margin-left: 5vw;
+    margin-bottom:2vw;
+}
+
+.banner2{
+    width: 100%;
+    height: 20%;
+}
+
+.bannerimg2{
+    border-radius: 2vw;
+    margin-left: 9vw;
+    border-color: rgba(29, 181, 191, 1); 
+    border-width: 10px;
+    width:70vw;
+}
+.chatgo{
+    align-self: flex-end;
+    width: 3vw;
+    height: 2.5vw;
+    margin:1vw;
+    margin-right:0;
+}
+.perf{
+    margin-top: 0.2vw;
+    width: 75%;
+    height: 80%;
+}
+
+.calapp{
+    margin-top:5vw;
+    width:100%;
+    display: flex;
+
+}
+.cal{
+    border-radius: 2vw;
+    width:80%;
+    margin-left: 10vw;
+    margin-bottom:2vw;
+}
